@@ -7,7 +7,6 @@
   <title>Responsive Card Layout with Image Change</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* Extender Tailwind con la fuente personalizada */
     @import url('https://fonts.googleapis.com/css2?family=Georgia:wght@700&display=swap');
 
     .font-georgia {
@@ -20,8 +19,8 @@
 
   <div class="card-container bg-white rounded-lg overflow-hidden w-[330px] md:w-[600px] flex flex-col md:flex-row">
     <div class="w-full md:w-1/2">
-      <img class="block md:hidden w-full h-full object-cover" src="../assets/images/image-product-mobile.jpg" alt="Card image mobile">
-      <img class="hidden md:block w-full h-full object-cover" src="../assets/images/image-product-desktop.jpg" alt="Card image desktop">
+      <img class="block md:hidden w-full h-full object-cover" src="/assets/images/image-product-mobile.jpg" alt="Card image mobile">
+      <img class="hidden md:block w-full h-full object-cover" src="/assets/images/image-product-desktop.jpg" alt="Card image desktop">
     </div>
 
 
@@ -38,7 +37,7 @@
       </div>
 
       <button class="bg-green-700 hover:bg-green-800 text-white py-3 px-6 flex justify-center items-center w-full rounded-md">
-        <img src="../assets/images/icon-cart.svg" alt="Cart Icon" class="mr-2">
+        <img src="/assets/images/icon-cart.svg" alt="Cart Icon" class="mr-2">
         Add to Cart
       </button>
     </div>
