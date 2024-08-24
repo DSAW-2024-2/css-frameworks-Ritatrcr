@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Card Layout with Image Change</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="m-0 min-h-screen flex items-center justify-center bg-[#f3eae3]">
+
+  <div class="card-container bg-white rounded-lg overflow-hidden w-[330px] md:w-[600px] flex flex-col md:flex-row">
+    <div class="w-full md:w-1/2">
+      <img class="block md:hidden w-full h-full object-cover" src="/assets/images/image-product-mobile.jpg" alt="Card image mobile">
+      <img class="hidden md:block w-full h-full object-cover" src="/assets/images/image-product-desktop.jpg" alt="Card image desktop">
+    </div>
+
+    <div class="md:w-1/2 p-6 flex flex-col justify-center">
+      <p class="text-gray-400 text-sm mb-2 tracking-widest">P E R F U M E</p>
+      <h5 class="text-lg font-bold mb-2">Gabrielle Essence Eau De Parfum</h5>
+      <p class="text-gray-400 mb-4 text-sm">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
+      </p>
+      
+      <div class="flex items-center mb-4">
+        <p class="text-green-700 font-bold text-2xl">$149.99</p>
+        <p class="text-gray-400 ml-4 line-through">$169.99</p>
+      </div>
+
+      <button class="bg-green-700 hover:bg-green-800 text-white py-3 px-6 flex justify-center items-center w-full rounded-md">
+        <img src="/assets/images/icon-cart.svg" alt="Cart Icon" class="mr-2">
+        Add to Cart
+      </button>
+    </div>
+  </div>
+
+</body>
+
+</html>
