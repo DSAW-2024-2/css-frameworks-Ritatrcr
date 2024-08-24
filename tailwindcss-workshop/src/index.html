@@ -6,6 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Responsive Card Layout with Image Change</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Extender Tailwind con la fuente personalizada */
+    @import url('https://fonts.googleapis.com/css2?family=Georgia:wght@700&display=swap');
+
+    .font-georgia {
+      font-family: 'Georgia', serif;
+    }
+  </style>
 </head>
 
 <body class="m-0 min-h-screen flex items-center justify-center bg-[#f3eae3]">
@@ -16,15 +24,16 @@
       <img class="hidden md:block w-full h-full object-cover" src="/assets/images/image-product-desktop.jpg" alt="Card image desktop">
     </div>
 
+    
     <div class="md:w-1/2 p-6 flex flex-col justify-center">
       <p class="text-gray-400 text-sm mb-2 tracking-widest">P E R F U M E</p>
-      <h5 class="text-lg font-bold mb-2">Gabrielle Essence Eau De Parfum</h5>
+      <h5 class="text-2xl font-bold mb-2 font-georgia">Gabrielle Essence Eau De Parfum</h5>
       <p class="text-gray-400 mb-4 text-sm">
         A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
       </p>
       
       <div class="flex items-center mb-4">
-        <p class="text-green-700 font-bold text-2xl">$149.99</p>
+        <p class="text-green-700 font-bold text-2xl font-georgia">$149.99</p>
         <p class="text-gray-400 ml-4 line-through">$169.99</p>
       </div>
 

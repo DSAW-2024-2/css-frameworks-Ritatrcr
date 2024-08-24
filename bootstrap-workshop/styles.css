@@ -4,11 +4,11 @@ body {
   background-color: #f3eae3;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   body {
-      background-image: url('/assets/images/image-background.png');
+      background-image: src;
       background-size: cover;
-      padding:90px;
+      padding:10%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -17,7 +17,7 @@ body {
 
 .main-container {
   min-width: 90%;
-  min-height: 100%;
+  min-height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,9 +31,9 @@ body {
   background-color: #ffffff;
   border-radius: 0.7rem;
   overflow: hidden;
-  width: 50%;
+  width: 600px;
   padding: 0;
-  height: auto;
+  height: 600px; 
 }
 
 .card-img-top {
