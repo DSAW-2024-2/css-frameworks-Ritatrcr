@@ -2,29 +2,12 @@ body {
   margin: 0;
   height: 100vh;
   background-color: #f3eae3;
-}
-
-@media (min-width: 1024px) {
-  body {
-      background-image: src;
-      background-size: cover;
-      padding:10%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
+  
 }
 
 .main-container {
-  min-width: 90%;
-  min-height: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #f3eae3;
-  @media (min-width: 1025px) {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
+
 }
 
 .card-container {
@@ -32,8 +15,8 @@ body {
   border-radius: 0.7rem;
   overflow: hidden;
   width: 600px;
-  padding: 0;
   height: 600px; 
+  padding: 0;
 }
 
 .card-img-top {
