@@ -1,5 +1,5 @@
 ## Link Boostrap: https://dsaw-2024-2.github.io/css-frameworks-Ritatrcr/bootstrap-workshop/
-## Link Tailwind: https://dsaw-2024-2.github.io/css-frameworks-Ritatrcr/tailwindcss-workshop/src/index.html
+## Link Tailwind: https://dsaw-2024-2.github.io/css-frameworks-Ritatrcr/tailwindcss-workshop/index.html
 
 # Reto de HTML y CSS con Bootstrap y TailwindCSS
 
