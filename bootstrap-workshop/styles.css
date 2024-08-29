@@ -1,0 +1,23 @@
+    
+    .font-georgia {
+      font-family: 'Georgia', serif;
+    }
+
+    .bg-custom {
+      background-color: #f3eae3;
+    }
+
+    .text-custom-green {
+      color: #16803d;
+    }
+
+    .btn-custom-green {
+      background-color: #16803d;
+      border: none;
+    }
+
+    .btn-custom-green:hover {
+      background-color: #1a4031;
+    }
+
+
